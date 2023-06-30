@@ -50,8 +50,8 @@ static PyObject* cSum( PyObject* self, PyObject* args ) {
         else{ /* If arg contains a string */
             printf("%s\n","a potential file.");
             printf("Amount of args: %lu\n",amt_args);
-            printf("%s\n",PyUnicode_AsUTF8(PySequence_GetItem(args,0))); /* Gets the name of txt, now use it to open the file and you're in */
-            char* file[] = PyUnicode_AsUTF8(PySequence_GetItem(args,0));
+            //printf("%s\n",PyUnicode_AsUTF8(PySequence_GetItem(args,0))); /* Gets the name of txt, now use it to open the file and you're in */
+            //char* file[] = PyUnicode_AsUTF8(PySequence_GetItem(args,0));
             return Py_BuildValue("d", 1.1);
         }
         
