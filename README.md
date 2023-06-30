@@ -1,5 +1,7 @@
 This repo contains a C extension module 'cGetSum' which can be utilized in Python, which allows Python to have access to functions with C/C++ speed and high performance.
 
+This module was built utilizing the PYTHON/C API : https://docs.python.org/3/c-api/index.html
+
 #HOW TO COMPILE on Ubuntu Linux:
 
 sudo apt-get install python3-dev
