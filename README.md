@@ -18,7 +18,7 @@ you will now be able to run the file python file 'python3 test.py'
 
 code is complete so you can look at how it works.
 
-EXAMPLE:
+EXAMPLE: inside of test.py which should be inside build/lib.linux.... directory:
 
 import cgetSum
 
